@@ -11,7 +11,6 @@ export default function App() {
       <Wellcome />
       <Iot />
       <Visi_misi />
-      <footer>bambang</footer>
     </div>
   );
 }
