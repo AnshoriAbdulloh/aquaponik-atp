@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: phantom;
+  src: url(./assets/font/panton-rust-black-base.ttf);
+}
+@font-face {
+  font-family: samsung;
+  src: url(./assets/font/samsungsharpsans-medium.otf);
+}
+@font-face {
+  font-family: mont-extraLight;
+  src: url(./assets/font/Montserrat-ExtraLight.ttf);
+}
+@font-face {
+  font-family: mont-regular;
+  src: url(./assets/font/Montserrat-Regular.ttf);
+}
+
+@theme {
+  --font-phantom: phantom;
+  --font-samsung: samsung;
+  --font-mont-extraLight: mont-extraLight;
+  --font-mont-regular: mont-regular;
+}
